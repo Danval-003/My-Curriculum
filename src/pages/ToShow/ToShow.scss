@@ -17,6 +17,14 @@
         text-align: justify;
         font-size: 0.9rem;
     }
+
+    & .space {
+        padding-bottom: 10vh;
+        content: "";
+        display: block;
+        height: 2vh;
+        width: 100%;
+    }
 }
 
 // Edit scroll bar

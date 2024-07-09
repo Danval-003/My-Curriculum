@@ -43,6 +43,7 @@ const ToShow: React.FC = () => {
     <div className="to-show">
       <AboutMe />
       <Experience projects={projects} />
+      <div className="space" ></div>
     </div>
   )
 }
