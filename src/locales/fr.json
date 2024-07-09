@@ -1,0 +1,40 @@
+{
+    "title": "Daniel Valdez",
+    "personalJob": "Développeur de logiciels",
+    "personalPhrase": "Je veux créer mon propre monde tout en le programmant.",
+    "nav": {
+        "principal": "Principal",
+        "aboutMe": "À propos de moi",
+        "projects": "Projets",
+        "experience": "Expérience"
+    },
+    "aboutMe": {
+        "title": "À propos de moi",
+        "description": "Je suis un jeune professionnel motivé avec une imagination sans limites et un engagement ferme envers l'informatique. Poussé par une curiosité incessante, je cherche continuellement des opportunités pour améliorer mon expérience dans le paysage technologique en constante évolution.\n\nActuellement, je poursuis mes études à l'Universidad del Valle de Guatemala, une institution reconnue pour son excellence académique et son focus sur l'innovation. Ici, je me forme continuellement aux technologies les plus récentes et aux systèmes utilisés dans les environnements de travail les plus professionnels et exigeants. Cette éducation m'a fourni une base solide dans des domaines tels que le développement de logiciels, l'intelligence artificielle, la cybersécurité et la gestion de bases de données.\n\nMon focus ne se limite pas aux études; je participe également activement à des projets parascolaires et collabore avec des équipes multidisciplinaires pour développer des solutions innovantes. Ces expériences m'ont permis d'acquérir des compétences pratiques et une compréhension profonde de la manière d'appliquer mes connaissances pour résoudre des problèmes réels."
+    },
+    "experience": {
+        "title": "Expérience",
+        "projects": "Projets",
+        "programming-languages": "Langages de Programmation",
+        "view_more": "Voir Plus",
+        "view_project": "Voir Projet"
+    },
+    "projects": {
+        "EverythingStarsWithWater": {
+            "title": "Tout Commence Avec l'Eau",
+            "description": "Un site web captivant développé avec ReactJS offrant une expérience immersive de narration visuelle ! Notre mission est de relever le défi critique lié aux ressources en eau en éduquant les étudiants sur le cycle de l'eau et ses profondes implications pour le changement climatique. Ce projet est conçu pour rendre l'apprentissage sur l'eau attractif, informatif et percutant."
+        },
+        "FastApiSocialNetwork": {
+            "title": "Fast Api: Réseau Social",
+            "description": "Le projet FastApi-SocialNetwork est une API développée avec FastAPI pour un réseau social, conçue pour offrir des performances élevées et une compatibilité avec Python 3.7+. Il utilise Neo4j pour la gestion des données, fournissant des structures robustes de modèles et des schémas Pydantic."
+        },
+        "SLR": {
+            "title": "Analyseur Lexical: LL1-SRL-Scanner",
+            "description": "Le projet LexicalAnalyzer-LL1-SRL-Scanner combine de puissantes capacités d'analyse lexicale et syntaxique à travers une API développée en Go. Il utilise des fichiers Yalex pour analyser le texte et générer des jetons, qui sont ensuite utilisés par une table SLR basée sur des fichiers Yalp pour l'analyse syntaxique. Avec une interface frontend en Angular, il offre une expérience intuitive pour interagir avec les fonctions d'analyse de texte, facilitant à la fois l'analyse de texte et l'accès à la table SLR."
+        },
+        "danvaland": {
+            "title": "Danvaland",
+            "description": "Danvaland vous invite à découvrir une collection de mes projets captivants hébergés sur GitHub. Des applications web dynamiques aux designs UI soignés, découvrez ma vision créative et ma passion profonde pour la technologie. Rejoignez-moi dans un voyage passionnant à travers des solutions innovantes et un développement de pointe."
+        }
+    }
+}

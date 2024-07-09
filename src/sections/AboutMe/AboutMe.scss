@@ -1,0 +1,12 @@
+.aboutMe {
+    @media screen and (min-width: 768px) {
+        & h4 {
+            height: 0;
+            width: 0;
+            font-size: 0;
+            opacity: 0;
+        }
+    }
+    height: fit-content;
+    padding-top: 11.5%;
+}

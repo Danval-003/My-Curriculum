@@ -1,0 +1,40 @@
+{
+    "title": "Daniel Valdez",
+    "personalJob": "软件开发人员",
+    "personalPhrase": "我想在编程的同时创造自己的世界。",
+    "nav": {
+        "principal": "主页",
+        "aboutMe": "关于我",
+        "projects": "项目",
+        "experience": "经验"
+    },
+    "aboutMe": {
+        "title": "关于我",
+        "description": "我是一名充满动力的年轻专业人士，拥有无限的想象力和对计算机科学的坚定承诺。受不断好奇心的驱使，我不断寻求机会以提高我在不断发展的技术领域中的经验。\n\n目前，我在危地马拉瓦莱大学（Universidad del Valle de Guatemala）攻读学位，该机构因其卓越的学术水平和对创新的关注而闻名。在这里，我不断接受最新技术和系统的培训，这些技术和系统被应用于最专业和最苛刻的工作环境中。这种教育为我提供了软件开发、人工智能、网络安全和数据库管理等领域的坚实基础。\n\n我的重点不仅限于学术；我还积极参与课外项目，并与多学科团队合作，开发创新的解决方案。这些经验使我能够获得实践技能，并深入理解如何应用我的知识来解决现实世界中的问题。"
+    },
+    "experience": {
+        "title": "经验",
+        "projects": "项目",
+        "programming-languages": "编程语言",
+        "view_more": "查看更多",
+        "view_project": "查看项目"
+    },
+    "projects": {
+        "EverythingStarsWithWater": {
+            "title": "一切源于水",
+            "description": "这是一个使用ReactJS开发的引人入胜的网站，提供沉浸式的视觉叙事体验！我们的使命是通过教育学生了解水循环及其对气候变化的深远影响，解决与水资源相关的关键挑战。该项目旨在使学习水资源变得引人入胜、信息丰富且具有冲击力。"
+        },
+        "FastApiSocialNetwork": {
+            "title": "Fast Api: 社交网络",
+            "description": "FastApi-SocialNetwork项目是一个使用FastAPI开发的API，用于社交网络，旨在提供与Python 3.7+高度兼容的高性能。它使用Neo4j进行数据管理，提供稳健的模型结构和Pydantic模式。"
+        },
+        "SLR": {
+            "title": "词法分析器: LL1-SRL-扫描仪",
+            "description": "LexicalAnalyzer-LL1-SRL-Scanner项目通过Go开发的API结合了强大的词法和语法分析能力。它使用Yalex文件扫描文本并生成标记，然后由基于Yalp文件的SLR表进行语法分析。具有Angular前端界面，为与文本分析功能交互提供直观体验，既方便文本扫描又便于访问SLR表。"
+        },
+        "danvaland": {
+            "title": "Danvaland",
+            "description": "Danvaland邀请您探索托管在GitHub上的我引人入胜的项目集合。从动态的Web应用到精美的UI设计，发现我的创意视野和对技术的深深热爱。与我一起踏上创新解决方案和尖端开发的激动人心旅程。"
+        }
+    }
+}

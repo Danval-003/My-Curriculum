@@ -1,0 +1,124 @@
+.modal {
+    
+  --backgroundblack: rgb(14, 1, 14);
+  --backgroundpurple: rgb(82, 6, 82);
+  --colorfont: rgb(239, 217, 239);
+    width: 70%;
+    height: 75%;
+    background: rgb(31, 2, 31);
+    border-radius: 20px;
+    color: var(--colorfont);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: 900px) {
+        width: 90%;
+        height: 90%;
+    
+    }
+
+
+    & .textCont {
+        display: flex;
+        height: 80%;
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 7%;
+        margin-top: 8%;
+        overflow-y: auto;
+
+        & .text-content{
+            width: 45%;
+        }
+        
+        
+        & .image {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+
+            & img {
+                width: 95%;
+                min-height: 40vh;
+                object-fit: cover;
+                border-radius: 10px 10px 10px 10px;
+            }
+        }
+
+    }
+
+    & h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 50%);
+
+    border: 2px solid var(--colorfont);
+
+}
+
+.project-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goto {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: var(--colorfont);
+    background-color: var(--backgroundblack);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 5%;
+    
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+
+    &:active {
+        outline: none;
+        border: none;
+    }
+
+    &:hover {
+        outline: none;
+        border: none;
+        color: var(--colorfont);
+        opacity: 0.7;
+    }
+    
+}
+
+.project-modal-button {
+    font-size: 0.9rem;
+    margin-bottom: 10%;
+    color: var(--colorfont);
+    background-color: var(--backgroundblack);
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+
+    &:active {
+        outline: none;
+        border: none;
+    }
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+
+    
+    &:hover {
+        outline: none;
+        border: none;
+        color: var(--colorfont);
+        opacity: 0.9;
+    }
+}

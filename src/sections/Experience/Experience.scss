@@ -1,0 +1,54 @@
+.experience {
+    @media screen and (min-width: 768px) {
+        & h4 {
+            height: 0;
+            width: 0;
+            font-size: 0;
+            opacity: 0;
+
+        }    
+    }
+    
+}
+
+.experience-cards {
+    padding-bottom: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+        justify-content: space-between;
+    }
+}
+
+.experience-cards-stack {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+        justify-content: space-between;
+    }
+}
+
+.experience-cards-button {
+    width: 10%;
+    
+    &:active {
+        outline: none;
+        border: none;
+    }
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}
+
+

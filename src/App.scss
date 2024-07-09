@@ -1,0 +1,246 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --backgroundblack: rgb(14, 1, 14);
+  --backgroundpurple: rgb(82, 6, 82);
+  --colorfont: rgb(239, 217, 239);
+}
+
+.ball {
+  
+  --delay:0s;
+  --size:0.1;
+  --speed: 20s;
+  
+  aspect-ratio:1;
+  width:calc( 150% * var(--size) );
+
+  background-color: hsl(274, 78%, 81%);
+  filter:blur( 15vw );
+  
+  border-radius:50%;
+  
+  position:absolute;
+  top:0;
+  left:0;
+  
+  opacity:0.5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+::selection {
+  background-color:  rgb(136, 11, 136);
+  color: var(--colorfont);
+}
+
+
+
+.glow-container {
+  overflow-x:hidden;
+  overflow-y: hidden;
+  position:fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  min-height:100vh;
+  background: radial-gradient(ellipse at center, var(--backgroundpurple) 10%, var(--backgroundblack) 100%);
+
+}
+
+.content{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.language-container{
+  position: fixed;
+  z-index: 4;
+  width: 25%;
+  height: 5.2vh;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 768px){
+    width: 60%;
+    right: 20px;
+  }
+
+  & .buttons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  & button {
+    background-color: var(--backgroundblack);
+    color:rgb(174, 174, 174);
+    border: none;
+    font-size: 1.2rem;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    z-index: 3;
+    width: calc(100%/4);
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 0;
+    transition: all 0.2s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+      background-color: var(--backgroundblack);
+    }
+
+    &:hover{
+      transform: scale(1.08);
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    &:focus{
+      outline: none;
+    }
+    &:active{
+      transform: scaleY(1.2) scaleX(1.2);
+    }
+
+    &.selected{
+      text-decoration: underline;
+    }
+
+    &:first-child{
+      border-top-left-radius: 5px;
+    }
+
+    &:last-child{
+      border-top-right-radius: 5px;
+    }
+
+    
+  }
+
+  & .selector-language{
+    background-color: rgb(174, 174, 174);
+    
+    transform: scaleY(1.0) scaleX(1.0);
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: calc(100%/4);
+    height: 120%;
+    position: absolute;
+    transform: scaleY(1.05);
+    bottom: 0;
+    
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+    padding: 0;
+
+    &::after{
+      content: "";
+      position: absolute;
+      top: 6.5%;
+    }
+   
+  
+
+    &.en{
+      left: 0%;
+      &::after{
+        content: "EN";
+        color:  rgb(14, 1, 14);
+        font-weight: 800;
+
+      }
+    }
+
+    &.es{
+      left:25%;
+      &::after{
+        content: "ES";
+        color:  rgb(14, 1, 14);
+        font-weight: 800;
+        
+      }
+    }
+
+    &.fr{
+      left:50%;
+      &::after{
+        content: "FR";
+        color:  rgb(14, 1, 14);
+        font-weight: 800;
+        
+      }
+    }
+
+    &.zh{
+      left:75%;
+      &::after{
+        content: "ZH";
+        color:  rgb(14, 1, 14);
+        font-weight: 800;
+        
+      }
+    }
+
+
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.content-page{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0);
+  color: var(--colorfont);
+
+  & h1 {
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+    }
+  }
+
+  & h2 {
+    @media screen and (max-width: 768px) {
+        font-size: 1.1rem;
+    }
+  }
+
+  & p {
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+    }
+  }
+
+
+
+  
+}

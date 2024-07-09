@@ -1,0 +1,42 @@
+.to-show {
+    height: 100vh;
+    display: flex;
+    padding-top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    
+
+    @media screen and (max-width: 768px) {
+        overflow: hidden;
+        height: fit-content;
+    }
+    & p {
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+}
+
+// Edit scroll bar
+::-webkit-scrollbar {
+    width: 15px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f12c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #88888872;
+    border-radius: 3px;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

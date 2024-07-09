@@ -1,0 +1,18 @@
+.contact a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+.icon-large {
+    font-size: 1.8rem;
+    fill: var(--colorfont);
+    color: var(--colorfont);
+    transition: all 0.2s ease-in-out;
+    opacity: 0.6;
+    &:hover {
+        fill: var(--colorfont);
+        color: var(--colorfont);
+        opacity: 1;
+    }
+}
+  
