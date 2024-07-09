@@ -14,10 +14,11 @@ export default defineConfig({
         // Plugin para copiar archivos
         copy({
           targets: [
-            // Copiar archivos de locales al directorio de salida
-            { src: 'src/locales/**/*', dest: 'dist/assets/src/locales' },
+            // Copiar archivos de locales al directorio de salida manteniendo la estructura
+            { src: 'src/locales/**/*', dest: 'dist' },
           ],
           verbose: true, // Mostrar detalles en la consola
+          flatten: false, // Mantener la estructura de directorios original
         }),
       ],
     },
