@@ -22,19 +22,35 @@
     "projects": {
         "EverythingStarsWithWater": {
             "title": "Everything Starts With Water",
-            "description": "A captivating website developed with ReactJS offering an immersive visual storytelling experience! Our mission is to address the critical challenge related to water resources by educating students about the water cycle and its profound implications for climate change. This project is designed to make learning about water engaging, informative, and impactful."
+            "description": "A captivating website developed with ReactJS that offers an immersive visual storytelling experience! Our mission is to address the critical challenge related to water resources by educating students about the water cycle and its profound implications for climate change. This project is designed to make learning about water engaging, informative, and impactful."
         },
         "FastApiSocialNetwork": {
             "title": "Fast Api: Social Network",
-            "description": "The FastApi-SocialNetwork project is an API developed with FastAPI for a social network, designed to offer high performance and compatibility with Python 3.7+. It uses Neo4j for data management, providing robust structures of models and Pydantic schemas."
+            "description": "The FastApi-SocialNetwork project is an API developed with FastAPI for a social network, designed to offer high performance and compatibility with Python 3.7+. It uses Neo4j for data management, providing robust model structures and Pydantic schemas."
         },
         "SLR": {
-            "title": "Lexical Analyzer: LL1-SRL-Scanner",
+            "title": "Lexical Analyzer",
             "description": "The LexicalAnalyzer-LL1-SRL-Scanner project combines powerful lexical and syntactic analysis capabilities through an API developed in Go. It uses Yalex files to scan text and generate tokens, which are then used by an SLR table based on Yalp files for syntactic analysis. With a frontend interface in Angular, it provides an intuitive experience for interacting with text analysis functions, facilitating both text scanning and access to the SLR table."
         },
         "danvaland": {
             "title": "Danvaland",
-            "description": "Danvaland invites you to explore a collection of my engaging projects hosted on GitHub. From dynamic web applications to polished UI designs, discover my creative vision and deep passion for technology. Join me on an exciting journey through innovative solutions and cutting-edge development."
+            "description": "Danvaland invites you to explore a collection of my fascinating projects hosted on GitHub. From dynamic web applications to polished UI designs, discover my creative vision and deep passion for technology. Join me on an exciting journey through innovative solutions and cutting-edge development."
+        },
+        "TCP_chat": {
+            "title": "TCP Chat",
+            "description": "Welcome to the chat application project, an advanced solution developed in C++ to facilitate instant communication between users. This project includes two main components, client.cpp and server.cpp, designed to provide a smooth and secure messaging experience. Utilizing Google's Protocol Buffers (protobuf) for efficient data transmission, our application ensures robust management of registered users and concurrent sessions through the use of threads. Users can easily register, request lists of connected users, and enjoy an uninterrupted chat experience. This application is designed to be scalable and reliable, providing an ideal platform for various communication needs."
+        },
+        "Doom_raycasting": {
+            "title": "Doom Raycasting",
+            "description": "This project is a technical demonstration of a Doom-style game developed in C++, using raycasting to generate real-time 3D graphics within a text console. Inspired by classics of the horror genre, the game offers an immersive and atmospheric experience, focusing on the effective implementation of rendering techniques to create visually impactful and tense environments. It compiles and runs easily via the run.sh script, providing an accessible showcase of raycasting potential in game creation."
+        },
+        "B-line": {
+            "title": "B-Line",
+            "description": "B-Line is a mobile application developed in Kotlin within the Android Studio environment. It aims to streamline the process of finding desired articles or products online by offering a robust search engine that scans various websites, organizes the results logically, and displays their prices and sources. Additionally, it allows users to filter results by category and save favorite items for easy access. B-Line enhances the online shopping experience by providing a centralized platform to discover and manage products efficiently."
+        },
+        "Raycaster" :{
+            "title": "Raycaster",
+            "description": "This project demonstrates a simple raycasting engine to render a Minecraft-themed diorama. The scene includes blocks representing different materials such as light, gold, diamond, emerald, and beacon. Each material has specific optical properties like reflection and refraction."
         }
     }
 }

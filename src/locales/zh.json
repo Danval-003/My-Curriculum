@@ -21,20 +21,36 @@
     },
     "projects": {
         "EverythingStarsWithWater": {
-            "title": "一切源于水",
-            "description": "这是一个使用ReactJS开发的引人入胜的网站，提供沉浸式的视觉叙事体验！我们的使命是通过教育学生了解水循环及其对气候变化的深远影响，解决与水资源相关的关键挑战。该项目旨在使学习水资源变得引人入胜、信息丰富且具有冲击力。"
+            "title": "一切始于水",
+            "description": "一个用ReactJS开发的迷人网站，提供沉浸式视觉讲故事体验！我们的使命是通过教育学生关于水循环及其对气候变化的深远影响来应对与水资源相关的关键挑战。该项目旨在使学习水资源变得有趣，信息丰富且具有影响力。"
         },
         "FastApiSocialNetwork": {
             "title": "Fast Api: 社交网络",
-            "description": "FastApi-SocialNetwork项目是一个使用FastAPI开发的API，用于社交网络，旨在提供与Python 3.7+高度兼容的高性能。它使用Neo4j进行数据管理，提供稳健的模型结构和Pydantic模式。"
+            "description": "FastApi-SocialNetwork项目是一个用FastAPI开发的社交网络API，旨在提供高性能并兼容Python 3.7+。它使用Neo4j进行数据管理，提供稳健的模型结构和Pydantic模式。"
         },
         "SLR": {
-            "title": "词法分析器: LL1-SRL-扫描仪",
-            "description": "LexicalAnalyzer-LL1-SRL-Scanner项目通过Go开发的API结合了强大的词法和语法分析能力。它使用Yalex文件扫描文本并生成标记，然后由基于Yalp文件的SLR表进行语法分析。具有Angular前端界面，为与文本分析功能交互提供直观体验，既方便文本扫描又便于访问SLR表。"
+            "title": "词法分析器",
+            "description": "LexicalAnalyzer-LL1-SRL-Scanner项目通过一个用Go开发的API结合了强大的词法和语法分析能力。它使用Yalex文件扫描文本并生成令牌，然后由基于Yalp文件的SLR表进行语法分析。通过Angular的前端界面，它提供了与文本分析功能交互的直观体验，方便文本扫描和SLR表的访问。"
         },
         "danvaland": {
             "title": "Danvaland",
-            "description": "Danvaland邀请您探索托管在GitHub上的我引人入胜的项目集合。从动态的Web应用到精美的UI设计，发现我的创意视野和对技术的深深热爱。与我一起踏上创新解决方案和尖端开发的激动人心旅程。"
+            "description": "Danvaland邀请您探索我在GitHub上托管的一系列引人入胜的项目。从动态的Web应用到精致的UI设计，发现我的创意愿景和对技术的深厚热情。加入我，一起踏上通过创新解决方案和前沿开发的激动人心的旅程。"
+        },
+        "TCP_chat": {
+            "title": "TCP聊天",
+            "description": "欢迎来到聊天应用程序项目，这是一个用C++开发的高级解决方案，用于促进用户之间的即时通信。该项目包括两个主要组件，client.cpp和server.cpp，旨在提供流畅且安全的消息传递体验。利用Google的Protocol Buffers（protobuf）进行高效的数据传输，我们的应用程序通过使用线程确保了对注册用户和并发会话的强大管理。用户可以轻松注册，请求连接用户列表，并享受不中断的聊天体验。该应用程序旨在具有可扩展性和可靠性，为各种通信需求提供理想的平台。"
+        },
+        "Doom_raycasting": {
+            "title": "Doom光线投射",
+            "description": "该项目是一个技术演示，用C++开发的Doom风格的游戏，使用光线投射在文本控制台内生成实时3D图形。受经典恐怖游戏的启发，游戏提供了沉浸式和氛围浓厚的体验，专注于有效实施渲染技术，以创建视觉冲击力和紧张的环境。通过run.sh脚本轻松编译和运行，展示了光线投射在游戏创作中的潜力。"
+        },
+        "B-line": {
+            "title": "B-Line",
+            "description": "B-Line是一个在Android Studio环境中用Kotlin开发的移动应用程序。它旨在通过提供一个强大的搜索引擎来简化在线查找所需文章或产品的过程，该搜索引擎扫描各种网站，逻辑地组织结果，并显示其价格和来源。此外，它允许用户按类别过滤结果，并保存喜欢的项目以便轻松访问。B-Line通过提供一个集中平台来高效发现和管理产品，从而提升在线购物体验。"
+        },
+        "Raycaster" :{
+            "title": "光线投射",
+            "description": "该项目演示了一个简单的光线投射引擎，以呈现Minecraft主题的场景。该场景包括代表不同材料的块，如光，金，钻石，翡翠和信标。每种材料都有特定的光学特性，如反射和折射。"
         }
     }
 }

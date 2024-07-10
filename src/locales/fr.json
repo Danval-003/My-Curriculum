@@ -22,19 +22,35 @@
     "projects": {
         "EverythingStarsWithWater": {
             "title": "Tout Commence Avec l'Eau",
-            "description": "Un site web captivant développé avec ReactJS offrant une expérience immersive de narration visuelle ! Notre mission est de relever le défi critique lié aux ressources en eau en éduquant les étudiants sur le cycle de l'eau et ses profondes implications pour le changement climatique. Ce projet est conçu pour rendre l'apprentissage sur l'eau attractif, informatif et percutant."
+            "description": "Un site web captivant développé avec ReactJS offrant une expérience immersive de narration visuelle. Notre mission est de relever le défi critique lié aux ressources en eau en éduquant les étudiants sur le cycle de l'eau et ses profondes implications pour le changement climatique. Ce projet est conçu pour rendre l'apprentissage de l'eau attrayant, informatif et percutant."
         },
         "FastApiSocialNetwork": {
             "title": "Fast Api: Réseau Social",
-            "description": "Le projet FastApi-SocialNetwork est une API développée avec FastAPI pour un réseau social, conçue pour offrir des performances élevées et une compatibilité avec Python 3.7+. Il utilise Neo4j pour la gestion des données, fournissant des structures robustes de modèles et des schémas Pydantic."
+            "description": "Le projet FastApi-SocialNetwork est une API développée avec FastAPI pour un réseau social, conçue pour offrir des performances élevées et une compatibilité avec Python 3.7+. Il utilise Neo4j pour la gestion des données, fournissant des structures de modèles robustes et des schémas Pydantic."
         },
         "SLR": {
-            "title": "Analyseur Lexical: LL1-SRL-Scanner",
-            "description": "Le projet LexicalAnalyzer-LL1-SRL-Scanner combine de puissantes capacités d'analyse lexicale et syntaxique à travers une API développée en Go. Il utilise des fichiers Yalex pour analyser le texte et générer des jetons, qui sont ensuite utilisés par une table SLR basée sur des fichiers Yalp pour l'analyse syntaxique. Avec une interface frontend en Angular, il offre une expérience intuitive pour interagir avec les fonctions d'analyse de texte, facilitant à la fois l'analyse de texte et l'accès à la table SLR."
+            "title": "Analyseur Lexical",
+            "description": "Le projet LexicalAnalyzer-LL1-SRL-Scanner combine des capacités puissantes d'analyse lexicale et syntaxique via une API développée en Go. Il utilise des fichiers Yalex pour analyser le texte et générer des jetons, qui sont ensuite utilisés par une table SLR basée sur des fichiers Yalp pour l'analyse syntaxique. Avec une interface frontend en Angular, il offre une expérience intuitive pour interagir avec les fonctions d'analyse de texte, facilitant à la fois l'analyse de texte et l'accès à la table SLR."
         },
         "danvaland": {
             "title": "Danvaland",
-            "description": "Danvaland vous invite à découvrir une collection de mes projets captivants hébergés sur GitHub. Des applications web dynamiques aux designs UI soignés, découvrez ma vision créative et ma passion profonde pour la technologie. Rejoignez-moi dans un voyage passionnant à travers des solutions innovantes et un développement de pointe."
+            "description": "Danvaland vous invite à explorer une collection de mes projets fascinants hébergés sur GitHub. Des applications web dynamiques aux conceptions UI soignées, découvrez ma vision créative et ma profonde passion pour la technologie. Rejoignez-moi dans un voyage passionnant à travers des solutions innovantes et un développement de pointe."
+        },
+        "TCP_chat": {
+            "title": "Chat TCP",
+            "description": "Bienvenue dans le projet d'application de chat, une solution avancée développée en C++ pour faciliter la communication instantanée entre les utilisateurs. Ce projet comprend deux composants principaux, client.cpp et server.cpp, conçus pour offrir une expérience de messagerie fluide et sécurisée. En utilisant les Protocol Buffers de Google (protobuf) pour une transmission efficace des données, notre application garantit une gestion robuste des utilisateurs enregistrés et des sessions simultanées grâce à l'utilisation de threads. Les utilisateurs peuvent facilement s'inscrire, demander des listes d'utilisateurs connectés et profiter d'une expérience de chat ininterrompue. Cette application est conçue pour être évolutive et fiable, offrant une plate-forme idéale pour divers besoins de communication."
+        },
+        "Doom_raycasting": {
+            "title": "Doom Raycasting",
+            "description": "Ce projet est une démonstration technique d'un jeu de style Doom développé en C++, utilisant le raycasting pour générer des graphiques 3D en temps réel dans une console de texte. Inspiré par les classiques du genre de l'horreur, le jeu offre une expérience immersive et atmosphérique, en se concentrant sur la mise en œuvre efficace des techniques de rendu pour créer des environnements visuellement percutants et tendus. Il se compile et s'exécute facilement via le script run.sh, fournissant une démonstration accessible du potentiel du raycasting dans la création de jeux."
+        },
+        "B-line": {
+            "title": "B-Line",
+            "description": "B-Line est une application mobile développée en Kotlin dans l'environnement Android Studio. Elle vise à rationaliser le processus de recherche d'articles ou de produits en ligne en offrant un moteur de recherche robuste qui analyse divers sites web, organise les résultats de manière logique et affiche leurs prix et sources. De plus, elle permet aux utilisateurs de filtrer les résultats par catégorie et de sauvegarder les articles favoris pour un accès facile. B-Line améliore l'expérience d'achat en ligne en fournissant une plate-forme centralisée pour découvrir et gérer des produits de manière efficace."
+        },
+        "Raycaster" :{
+            "title": "Raycaster",
+            "description": "Ce projet démontre un moteur de raycasting simple pour rendre un diorama sur le thème de Minecraft. La scène comprend des blocs représentant différents matériaux tels que la lumière, l'or, le diamant, l'émeraude et le phare. Chaque matériau a des propriétés optiques spécifiques comme la réflexion et la réfraction."
         }
     }
 }
