@@ -1,3 +1,3 @@
-import Spotlight from "./spotlight-card";
+import { Spotlight, SpotlightCard } from "./spotlight-card";
 
-export default Spotlight;
+export { Spotlight, SpotlightCard};
